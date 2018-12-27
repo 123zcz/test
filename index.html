@@ -2,9 +2,165 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>	茶吧</title>
+	<style>
+		body,h1,h2,h3,p,ul,hr{
+			margin:0;
+			padding: 0;
+			color: 	#000;
+			font-size: 12px;
+			font-family: 宋体；
+		}
+		h1,h2,h3{
+			font-weight: normal;
+		}
+		ul{
+			list-style: none;
+		}
+		a{  
+			color: #000;
+			text-decoration:none;
+			
+		}
+		.clearfix::after{
+			content: '';
+			display: block;	
+			clear: 	both;	
+		}
+		.gwidth{
+			width:780px;
+			margin:0 auto;
+		}
+		.fl{
+			float: 	left;
+		}
+		.fr{
+			float: 	right;	
+		}
+		.hidtxt{
+			text-indent: 100%;
+			white-space: nowrap;
+			overflow: hidden;
+		}
+		#header{
+			background: url('images/bg1.gif');
+			height: 100px;	
+		}
+		#header ul{
+			float: right;	
+			padding-right: 80px;
+		}
+		#content{
+			background: #D5FF8C;
+		}
+		#side{
+			width:235px;	
+		}
+		.one h2{
+			background: url('images/dg.jpg');
+			width: 195px;
+			margin:0 auto;	
+			height: 40px;
+			margin-top: 1px;
+
+		}
+		.one li{
+			width: 195px;	
+			height: 30px;
+			margin:0 auto;
+			line-height:30px;
+			text-align: center;		
+			background: url('images/ai.gif');
+		}
+		.two h2{
+			width: 200px;	
+			height: 40px;
+			margin:0 auto;
+			margin-top: 10px;	
+			background:url('images/lx.jpg');
+		}
+		.two ul{
+			width: 200px;	
+			height: 143px;	
+			margin:0 auto;
+			background: url('images/bg2.gif');
+		}
+		.two li{
+			padding-left: 10px;
+			line-height: 36px;
+		}
+		#main{
+			width: 525px;
+			padding: 5px 10px 15px;
+			background:#FFFFDB url('images/infoqz.jpg') no-repeat center 24px; 		
+		}
+		#main h2{
+			padding-bottom: 120px;
+		}
+		#main p {
+			text-align: 1em;
+			padding-bottom: 14px;
+		}
+		#footer{
+			/* height: 100px;
+			line-height: 100px; */
+			padding: 35px 0;
+			text-align: center;	
+			background:#DDF2CE; 
+
+		}
+
+	</style>
 </head>
 <body>
-	<div>sssssssssssssssssssssssss</div>
+	<div id="header" class="gwidth">
+		<h1 class="hidtxt">普洱茶吧——普洱爱好者乐园</h1>
+		<ul>
+			<li><a href="#">设为首页</a></li>
+			<li><a href="#">加为收藏</a></li>
+		</ul>
+	</div>
+	<div id="content"  class="clearfix gwidth">
+		<div id="side" class="fl">
+			<div class="one">
+				<h2 class="hidtxt">网站导航</h2>
+				<ul>
+					<li>茶吧首页</li>
+					<li>普洱简介</li>
+					<li>茶叶新品</li>
+					<li>特价茶叶</li>
+					<li>客户反馈</li>
+					<li>联系我们</li>
+				</ul>
+			</div>
+			<div class="two">
+				<h2 class="hidtxt">联系我们</h2>
+				    <ul>
+				    	<li><a href="#">地址：河北省保定市######</a></li>
+				    	<li><a href="#">联系电话：0312-0000000</a></li>
+				    	<li><a href="#">传真：0312-0000000</a></li>
+				    	<li><a href="#">E-mail:000000@126.com</a></li>
+				    </ul>
+			</div>
+		</div>
+		    <div id="main" class="fr">
+		    	<h2>当前位置：<a href="#">首页</a>->普洱简介</h2>
+		    	<p>普洱茶是历史以来形成的云南特有的地方名茶。是以云南原产地的大叶种晒青茶及其再加工而成两个系列：直接再加工为成品的生普和经过人工速成发酵后再加工而成的熟普，型制上又分散茶和紧压茶两类；成品后都还持续进行着自然陈化过程，具有越陈越香的独特品质。</p>
+		    	<h3>如何选购普洱茶</h3>
+		    	<p>由于普洱茶可持续发酵，因此越陈越香，价钱当然也较贵。新的普洱茶指的是刚制成的普洱茶，外观颜色较绿有白毫，味道浓烈，老的普洱茶指的是陈放较久的普洱茶，因为经过长时间的后氧化作用，茶叶外观呈枣红色，白毫也转成黄褐色。</p>
+		    	<h3>闻茶叶香气</h3>
+		    	<p>通常保存不佳的普洱茶会产生霉味，有些商人为掩盖其气味，会加入菊花等花香。因此若看到普洱茶中参有菊花，或闻起来有花香，表示茶叶品质不纯正。</p>
+		    	<h3>试喝</h3>
+		    	<p>试喝是选购茶叶最重要的部分了，因为一杯茶好不好，合不合口味，从试喝就可以完全知晓，一杯好的普洱茶不会有霉味、也不会是苦水。新制的普洱有白毫，未经过陈化，因此会有苦涩味；普洱茶陈化、白毫转金针后，性温和、不刺激，因此味道较甘醇。</p>
+		    	<h3>保存</h3>
+		    	<p>普洱茶如果保存得当，是会越陈越香的，不过购买时会发现在普洱茶的外包装上有标示保存期限，这是因为规定食品必需要标志，事
+		    	实上消费者在饮用普洱茶时，是可以不须在意的。另外如果发现茶叶有霉味，通常是保存不当所致，不宜选购。</p>
+		    	
+		    </div>
+	</div>
+   <div id="footer" class="gwidth">
+   	 <hr>
+   	 <div>版权所有&copy</div>
+   </div>
 </body>
 </html>
